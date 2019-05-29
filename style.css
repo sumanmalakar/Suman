@@ -1,0 +1,374 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+
+/*----header CSS----*/
+
+#particles-js {
+    height:100%;
+    background:url(img/x.jpg);
+ background-position:center;
+ background-size:cover;
+ background-attachment:fixed;
+} 
+
+/*
+@media screen and (max-width: 480px) {
+    #particles-js {
+        height:100%;
+     background:url(img/com7.jpg);
+     background-position:center;
+     background-size:;
+     background-attachment:fixed;
+    }
+    #header{
+        height:100vh;
+    }
+   
+} */
+
+#header{
+    height:100vh;
+}
+
+.user-box
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.user-box img{
+    border-radius:50%;
+    width:250px;
+  border:2px solid blue;
+}
+.user-box h1{
+    color:#FFFFFF;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;   
+    font-weight:lighter;
+}
+.user-box p{
+    color:#FFFFFF;
+}
+
+.scroll-btn{
+    position: absolute;
+    bottom:50px;
+    left:50%;
+    transform: translateX(-50%);
+    padding:2px 10px 15px;
+    border:2px solid yellow;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);    
+    border-radius: 5px;
+   
+}
+.scroll-bar span{
+    border:2px solid white;
+    font-size:10px;
+    border-radius:30px;
+}
+.scroll-bar{
+    animation: mover 0.9s infinite alternate;
+}
+@keyframes mover{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+/*-----Navigation bar-----*/
+
+.nav-bar{
+    position:sticky;
+    top:0px;
+    z-index: 2;
+}
+.navbar-brand{
+    width:50px;
+ background:blue;
+    border-radius:30px;
+}
+.navbar-brand span{
+ margin-left:10px;
+}
+.nav-link{
+    color:white !important;
+}
+
+li.nav-item a:hover{
+    background: gray;
+    color:white;
+
+}
+.nav-bar .fa-bars{
+    font-size:35px;
+    color:white;
+}
+.navbar-nav{
+    float:right;
+    text-align:center; 
+}
+
+/*----About CSS----*/
+
+#aboutme{ 
+    height: 100vh;
+    background:url(img/b.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+.a{
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+     position:sticky;
+     top:0;
+
+    
+}
+.a h1{
+    color:#FFFFFF;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2.1em;
+    padding-top:20px;
+
+}
+/*
+.a .fa-quote-left{
+    font-size:10px;
+    padding:20px;
+    position: relative;
+*/
+
+.a p{
+    color:black;
+    padding-top:5px;
+    padding-bottom:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    word-spacing: 5px;
+   
+}
+.link{
+    color:blue;
+    font-size:20px;
+}
+
+/*----Education CSS----*/
+
+.Education{
+    height: 100vh;
+    background:url(img/c.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.Education .container{
+    
+    height: 380px;
+    background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+    
+}
+ .fa-graduation-cap{
+    color:black;
+    padding:10px;
+}
+   
+.h1{
+    color:#FFFFFF;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.9em;
+    font-weight: bolder;
+    padding-top:20px;
+}
+.h4{
+    color:blue;
+    padding-top:30px;
+}
+p{
+    padding-top:20px;
+   
+}
+
+/*-----Skills CSS----*/
+
+.Skills{
+    height: 100vh;
+    background:url(img/d.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Skills .container{
+     height:380px;
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+
+
+}
+.container h1{
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    color:white;
+}
+.fa-cogs{
+    padding:20px;
+    color:black;
+}
+.skills-bar p{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:10px;
+    margin-left:20px;
+    color:yellow;
+}
+.progress{
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+    background: black;
+}
+.progress-bar{
+  
+    color:white;
+    font-size:15px;
+   
+}
+#x{
+    animation:bar 5s infinite ;
+}
+@keyframes bar{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+        
+    }
+}
+#y{
+    animation:ba 5s infinite;
+}
+@keyframes ba{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+         
+    }
+}
+#z{
+    animation:b 5s infinite;
+}
+@keyframes b{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+         
+    }
+}
+
+
+/*-----Contact CSS-----*/
+
+.contact{
+    height: 100vh;
+    background:url(img/d.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact .container{
+    height:380px;
+  
+background: linear-gradient(239deg, #34e89e, #3c74a8);
+}
+.contact .container h1{
+    padding-top:30px;
+    color:black;
+}
+.contact .row{
+    padding-top:10px;
+    font-size:25px;
+    font-weight:bold;
+}
+.contact .col-md-6 .fa{
+    color:black;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+/*----Social Media CSS----*/
+
+ .container.social-icons{
+   width:100%;
+   
+}
+.icons{
+    display: inline-block;
+    list-style-type:none;
+    
+  
+    padding:50px;
+    width: 40px;
+    height: 40px;
+    
+    
+    
+}
+.icons i{
+
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 30%;
+    width:40px;
+    line-height: 40px;
+    font-size:25px;
+    transition:1.25 linear;
+    color:white;
+}
+.icons:hover i{
+    transform:scale(1.5);
+    color:blue;
+}
+
+/*-----footer CSS-----*/
+
+.footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #000000;
+}
+.footer p{
+    color:silver;
+    font-size: 25px;
+  
+}
+
+.fa-heart{
+    color:red;
+    animation: heart 0.5s infinite;
+}
+@keyframes heart{
+    0% {
+		transform: scale(1);
+	}
+	25%{
+		transform: scale(1.2);
+    }
+
+    50%{
+        transform: scale(1);
+    }
+    
+}
