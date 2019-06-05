@@ -88,13 +88,13 @@
     color:black;
     padding-top:0px;
     padding-bottom:50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lobster', cursive;
     font-size: 17px;
     word-spacing: 5px;
 } 
 .Education{
     height: 100vh;
-    background:url(img/c.jpg);
+    background:url(img/1.jpg);
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
@@ -115,7 +115,7 @@ font-size:1.7em;
 }
 .Skills{
     height: 100vh;
-    background:url(img/d.jpg);
+    background:url(img/1.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -137,7 +137,7 @@ font-size:1.7em;
 
 .contact{
     height: 100vh;
-    background:url(img/d.jpg);
+    background:url(img/1.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
