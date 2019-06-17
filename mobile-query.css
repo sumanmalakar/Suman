@@ -94,7 +94,7 @@
 } 
 .Education{
     height: 100vh;
-    background:url(img/1.jpg);
+    background:url(img/2.jpg);
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
@@ -115,7 +115,7 @@ font-size:1.7em;
 }
 .Skills{
     height: 100vh;
-    background:url(img/1.jpg);
+    background:url(img/2.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -137,7 +137,7 @@ font-size:1.7em;
 
 .contact{
     height: 100vh;
-    background:url(img/1.jpg);
+    background:url(img/2.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
