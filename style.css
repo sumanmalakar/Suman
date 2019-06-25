@@ -154,12 +154,12 @@ li.nav-item a:hover{
 
 .Education{
     height: 100vh;
-    background:url(img/2.jpg);
+    background:url(img/3.jpg);
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
 }
-.Education .container{
+.Education .con2{
     
     height: 380px;
     background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
@@ -190,18 +190,19 @@ p{
 
 .Skills{
     height: 100vh;
-    background:url(img/2.jpg);
+    background:url(img/f.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
 }
-.Skills .container{
-     height:380px;
+.Skills .con3
+{
+     height:550px;
     background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
 
 
 }
-.container h1{
+.con3 h1{
     text-align: center;
     font-family: 'Poiret One', sans-serif;
     color:white;
@@ -211,17 +212,17 @@ p{
     color:black;
 }
 .skills-bar p{
-    font-size:25px;
+    font-size:20px;
     font-family: 'Times New Roman', Times, serif;
-    padding-top:10px;
+    /* padding-top:10px; */
     margin-left:20px;
     color:yellow;
 }
 .progress{
-    margin-bottom:10px;
+    /* margin-bottom:10px;
     margin-left:20px;
-    margin-right:20px;
-    background: black;
+    margin-right:20px; */
+    /* background: black; */
 }
 .progress-bar{
   
@@ -230,7 +231,7 @@ p{
    
 }
 #x{
-    animation:bar 5s infinite ;
+    animation:bar infinite 6s ;
 }
 @keyframes bar{
     0%{
@@ -242,19 +243,19 @@ p{
     }
 }
 #y{
-    animation:ba 5s infinite;
+    animation:ba infinite 6s;
 }
 @keyframes ba{
     0%{
         width:0%;
     }
     100%{
-        width:85%;
+        width:88%;
          
     }
 }
 #z{
-    animation:b 5s infinite;
+    animation:b infinite 6s;
 }
 @keyframes b{
     0%{
@@ -265,23 +266,52 @@ p{
          
     }
 }
+#a{
+    animation:l infinite 6s;
+}
+@keyframes l{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+         
+    }
+}
+#b{
+    animation:k infinite 6s;
+}
+@keyframes k{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+         
+    }
+}
 
 
 /*-----Contact CSS-----*/
 
 .contact{
     height: 100vh;
-    background:url(img/2.jpg);
+    background:url(img/cs.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
+
+    
+    
 }
-.contact .container{
+
+.contact .con4{
     height:380px;
+   
   
 background: linear-gradient(239deg, #34e89e, #3c74a8);
 }
-.contact .container h1{
+.contact .con4 h1{
     padding-top:30px;
     color:black;
 }
@@ -299,7 +329,7 @@ background: linear-gradient(239deg, #34e89e, #3c74a8);
 
 /*----Social Media CSS----*/
 
- .container.social-icons{
+ .con4.social-icons{
    width:100%;
    
 }
@@ -308,7 +338,7 @@ background: linear-gradient(239deg, #34e89e, #3c74a8);
     list-style-type:none;
     
   
-    padding:50px;
+    padding:40px;
     width: 40px;
     height: 40px;
     
@@ -340,7 +370,7 @@ background: linear-gradient(239deg, #34e89e, #3c74a8);
 }
 .footer p{
     color:silver;
-    font-size: 25px;
+    font-size: 20px;
   
 }
 

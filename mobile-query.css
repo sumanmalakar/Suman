@@ -1,4 +1,5 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px)
+{
 
     .user-box h1{
         padding-top:50px;
@@ -6,7 +7,7 @@
        
     }
 
-    .Education .container{
+    .Education .con2{
         height:610px;
     }
     .h1{
@@ -21,8 +22,8 @@
         padding-top:0px;
         color:black;
     }
-    .contact .container{
-        height:380px;
+    .contact .con4{
+        height:500px;
     }
     .contact .row{
         padding-top:10px;
@@ -80,7 +81,7 @@
 .a h1{
     color:#FFFFFF;
     font-family: 'Poiret One', sans-serif;
-    font-size: 2.2em;
+    font-size: 1.5em;
     padding-top:5px;
 }
 
@@ -89,69 +90,71 @@
     padding-top:0px;
     padding-bottom:50px;
     font-family: 'Lobster', cursive;
-    font-size: 17px;
+    font-size: 14px;
     word-spacing: 5px;
 } 
 .Education{
     height: 100vh;
-    background:url(img/2.jpg);
+    background:url(img/3.jpg);
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
 }
-.Education .container{
-    height:520px;
+.Education .con2{
+    height:500px;
 }  
 
-.Education .container h1{
-font-size:1.7em;
+.Education .con2 h1{
+font-size:1.5em;
 
 }
-.Education .container h4{
-    font-size:1em;
-}
-.Education .container p{
+.Education .con2 h4{
     font-size:0.9em;
+}
+.Education .con2 p{
+    font-size:0.8em;
 }
 .Skills{
     height: 100vh;
-    background:url(img/2.jpg);
+    background:url(img/f.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
 }
-.Skills .container h1{
-    font-size: 2.2em;
+.con3 h1{
+    font-size: 1.5em;
 
 }
-.Skills .container{
- height:330px;
+.Skills .con3{
+ height:380px;
 }
 .skills-bar p{
-    font-size:20px;
+    font-size:15px;
     font-family: 'Times New Roman', Times, serif;
-    padding-top:0.5px;
+    /* padding-top:0.5px; */
     margin-left:20px;
     color:yellow;
 }
 
 .contact{
     height: 100vh;
-    background:url(img/2.jpg);
+    background:url(img/cs.jpg);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
 }
-.contact .container h1{
-    font-size: 2.2em;
+.contact .con4{
+    height:380px;
+}
+.contact .con4 h1{
+    font-size: 1.5em;
     padding-top:15px;
     color:black;
 }
 .contact .col-md-6 .fa{
     color:black;
-    font-size: 1.5em;
+    font-size: 0.9em;
     font-weight: bolder;
 }
 
 }
-
