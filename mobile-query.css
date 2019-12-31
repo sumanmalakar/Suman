@@ -8,7 +8,7 @@
     }
 
     .Education .con2{
-        height:610px;
+        /* height:6px; */
     }
     .h1{
         color:black;
@@ -89,27 +89,39 @@
     color:black;
     padding-top:0px;
     padding-bottom:50px;
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
     font-size: 14px;
     word-spacing: 5px;
 } 
 .Education{
-    height: 100vh;
+    /* height: 100vh; */
     background:url(img/3.jpg);
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
+    
 }
-.Education .con2{
-    height:500px;
+.Education .container{
+    height:auto;
+    margin-bottom: 50px;
+    padding-bottom: 20rem;
 }  
+.Education .con2{
+    padding-bottom: 5px;
+}
 
 .Education .con2 h1{
 font-size:1.5em;
 
 }
-.Education .con2 h4{
-    font-size:0.9em;
+.Education .con2 a{
+    font-size:0.8em;
+}
+.Education .con2 .p {
+    font-size: 0.6em;
+}
+.Education .con2 h4 {
+    font-size: 0.8em;
 }
 .Education .con2 p{
     font-size:0.8em;
