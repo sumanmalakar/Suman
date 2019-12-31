@@ -94,7 +94,7 @@
     word-spacing: 5px;
 } 
 .Education{
-    /* height: 100vh; */
+    height: 100vh;
     background:url(img/3.jpg);
     background-size:cover;
     background-attachment: fixed;
